@@ -1,0 +1,13 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore heavy data/model directories
+data/english/
+results/
+emotion_distilbert_model/
+
+# Cache and system
+__pycache__/
+.DS_Store
+*.log
